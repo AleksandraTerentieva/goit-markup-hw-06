@@ -24,6 +24,7 @@
     <!-- Normalize end -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <!-- header section -->
     <header class="header">
@@ -585,8 +586,7 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="container-footer-form">
+        <div class="container-footer-form">
         <form class="footer-form">
           <label class="footer-label">
             <span class="footer-text">Подпишитесь на рассылку</span>
@@ -611,26 +611,26 @@
             <use href="./images/icons.svg#icon-icon-close"></use>
           </svg>
         </button>
-        <form class="form-modal">
+          <form class="form-modal">
           <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
           <label for="name" class="label-modal">Имя</label>
           <p class="field">
             <input id="name" type="text" class="input-modal" name="name" autofocus />
-            <svg class="modal-icon" wght="18" height="18">
+            <svg class="modal-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </p>
           <label for="phone" class="label-modal">Телефон</label>
           <p class="field">
             <input id="phone" type="text" class="input-modal" name="name" autofocus />
-            <svg class="modal-icon" wght="18" height="18">
+            <svg class="modal-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </p>
           <label for="email" class="label-modal">Почта</label>
           <p class="field">
             <input id="email" type="text" class="input-modal" name="name" autofocus />
-            <svg class="modal-icon" wght="18" height="18">
+            <svg class="modal-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </p>
@@ -642,7 +642,23 @@
             class="input-modal textarea-modal"
             placeholder="Введите текст"
           ></textarea>
-        </form>
+          <p class="check-box">
+            <label class="label-modal label-check" for="done">
+              <input class="check visually-hidden" id="done" type="checkbox" name="done" />
+              <svg class="check-on" width="16" height="15">
+                <use href="./img/icons.svg#check2"></use>
+              </svg>
+              <svg class="check-off" width="16" height="15">
+                <use href="./img/icons.svg#check1"></use>
+              </svg>
+              <span class="check-text"
+                >Соглашаюсь с рассылкой и принимаю
+                <a class="link-modal" href="">Условия договора</a></span
+              >
+            </label>
+          </p>
+          <button class="modal-modal-btn" type="submit">Отправить</button>
+          </form>
       </div>
     </div>
 
