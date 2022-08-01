@@ -143,6 +143,7 @@ img {
 
 .hero-btn:hover,
 .hero-btn:focus {
+  background-color: var(--btn-hero-hover);
 }
 
 .work-btn-item:hover,
