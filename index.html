@@ -586,6 +586,20 @@
           </ul>
         </div>
       </div>
+      <div class="container-footer-form">
+        <form class="footer-form">
+          <label class="footer-label">
+            <span class="footer-text">Подпишитесь на рассылку</span>
+            <input type="email" name="email" placeholder="E-mail" class="footer-input" />
+          </label>
+        </form>
+        <button class="footer-btn">
+          Подписаться
+          <svg class="footer-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-telegram"></use>
+          </svg>
+        </button>
+      </div>
     </footer>
 
     <!-- Modal window -->
@@ -597,10 +611,41 @@
             <use href="./images/icons.svg#icon-icon-close"></use>
           </svg>
         </button>
+        <form class="form-modal">
+          <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+          <label for="name" class="label-modal">Имя</label>
+          <p class="field">
+            <input id="name" type="text" class="input-modal" name="name" autofocus />
+            <svg class="modal-icon" wght="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </p>
+          <label for="phone" class="label-modal">Телефон</label>
+          <p class="field">
+            <input id="phone" type="text" class="input-modal" name="name" autofocus />
+            <svg class="modal-icon" wght="18" height="18">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </p>
+          <label for="email" class="label-modal">Почта</label>
+          <p class="field">
+            <input id="email" type="text" class="input-modal" name="name" autofocus />
+            <svg class="modal-icon" wght="18" height="18">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </p>
+          <label for="comments" class="label-modal">Комментарий</label>
+          <textarea
+            name="feedback"
+            id="comments"
+            rows="5"
+            class="input-modal textarea-modal"
+            placeholder="Введите текст"
+          ></textarea>
+        </form>
       </div>
     </div>
-    
-    <script src="./js/modal.js"></script>
 
+    <script src="./js/modal.js"></script>
   </body>
 </html>

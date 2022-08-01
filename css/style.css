@@ -808,3 +808,23 @@ img {
   background-color: transparent;
   cursor: pointer;
 }
+
+/**
+  |============================
+  | FOOTER MODAL BTN
+  |============================
+*/
+
+.container-footer-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-form {
+  margin-left: 93px;
+}
+
+.footer-label {
+  display: flex;
+  flex-direction: column;
+}
