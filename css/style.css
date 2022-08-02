@@ -1032,6 +1032,11 @@ img {
   opacity: 1;
 }
 
+.register-icon-check {
+  fill: var(--btn-txt-cl);
+}
+
+
 .check:checked ~ .check-off {
   opacity: 0;
 }
@@ -1040,7 +1045,6 @@ img {
   font-size: 14px;
   margin-left: 7px;
 }
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
