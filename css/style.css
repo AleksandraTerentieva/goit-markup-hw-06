@@ -812,6 +812,9 @@ img {
 }
 
 .modal-btn-icon {
+  position: relative;
+  top: 3px;
+  left: 0px;
   fill: #000;
   transition: fill var(--animation);
 }
@@ -1004,7 +1007,7 @@ img {
   border-radius: 2px;
   opacity: 0;
   position: absolute;
-  transition: opacity 250ms var(--cubic);
+  transition: opacity var(--animation);
 }
 
 .check:checked + .check-on {
