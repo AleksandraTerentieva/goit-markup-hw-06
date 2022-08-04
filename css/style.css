@@ -611,11 +611,13 @@ img {
   color: var(--contacts-txt-cl);
 }
 
-.work-card:hover,
-.work-card:focus {
+.work-cards:hover,
+.work-cards:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+
 /* footer section */
 
 .footer {
@@ -800,6 +802,9 @@ img {
   padding: 0;
   width: 30px;
   height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--btn-txt-cl);
@@ -812,9 +817,6 @@ img {
 }
 
 .modal-btn-icon {
-  position: relative;
-  top: 3px;
-  left: 0px;
   fill: #000;
   transition: fill var(--animation);
 }
@@ -1035,7 +1037,6 @@ img {
 .register-icon-check {
   fill: var(--btn-txt-cl);
 }
-
 
 .check:checked ~ .check-off {
   opacity: 0;
